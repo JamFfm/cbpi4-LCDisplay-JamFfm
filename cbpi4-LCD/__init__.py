@@ -20,9 +20,10 @@ from cbpi.api.base import CBPiBase
 from aiohttp import web
 import os, re
 
-# LCDVERSION = '5.0.01'
+# LCDVERSION = '6.0.0'
 #
-# this plug in is made for CBPI4. Do not use it in CBPI3.
+# this plug in is made for CBPI4.
+# It is a alternative from Alexander's LCDisplay which is the default. 
 # The LCD-library and LCD-driver are taken from RPLCD Project version 1.0. The documentation:
 # http://rplcd.readthedocs.io/en/stable/ very good and readable. Git is here: https://github.com/dbrgn/RPLCD.
 # LCD_Address should be something like 0x27, 0x3f etc.
