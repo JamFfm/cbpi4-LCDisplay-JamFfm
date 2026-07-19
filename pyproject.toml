@@ -1,5 +1,29 @@
-# pyproject.toml
 [build-system]
-# XXX: If your project needs other packages to build properly, add them to this list.
-requires = ["setuptools >= 42.0.0"]
+requires = ["setuptools>=42.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "cbpi4-LCD"
+version = "6.0.0"
+description = "CraftBeerPi4 LCD Plugin"
+readme = "README.md"
+keywords = ["globalsettings"]
+authors = [
+    { name = "Jan Battermann", email = "Jan.Battermann@t-online.de" }
+]
+license = { text = "GPLv3" }
+dependencies = [
+    "RPLCD",
+    "smbus2",
+]
+
+[project.urls]
+Homepage = "https://github.com/JamFfm/cbpi4-LCDisplay-JamFfm"
+
+[tool.setuptools]
+include-package-data = true
+packages = { find = {} }
+
+[tool.setuptools.package-data]
+"*" = ["*.txt", "*.rst", "*.yaml"]
+"cbpi4-LCD" = ["*", "*.txt", "*.rst", "*.yaml"]
