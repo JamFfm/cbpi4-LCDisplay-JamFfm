@@ -1,6 +1,6 @@
 # Craftbeerpi4 Plugin for 20x4 LCD Display
 
-This is a mod of Jan Battermans LCD Display plugin for CraftbeerrPi 4
+This is a mod of Alexander Vollkopf LCD Display plugin for CraftbeerrPi 4 which is the stable default.
 
 With this add-on you can display your Brewing steps temperatures on a 20x4 i2c LCD Display.
 
