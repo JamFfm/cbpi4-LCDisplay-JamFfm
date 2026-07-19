@@ -26,8 +26,8 @@ Ensure to activate the I2C connection in Raspi configuration.
 
 Please have a look at the [Craftbeerpi4 Documentation](https://openbrewing.gitbook.io/craftbeerpi4_support/readme/plugin-installation)
 
-- Package name: cbpi4-LCD
-- Package link: https://github.com/pibrewing/cbpi4-LCDisplay/archive/main.zip
+- Package name: cbpi4-LCD-JamFfm
+- Package link: https://github.com/JamFfm/cbpi4-LCDisplay-JamFfm/archive/main.zip
 
 
 ## Configuration
@@ -86,7 +86,7 @@ there is only OneWire and CustomSensor functional (even some more are selectable
 
 
 
-**Fermenter mode: not implemented**
+**Fermenter mode:**
 --------------
 - Pretty much the same as multidisplay for all fermenter.
 - Starts automatically if there is no brewstep running and an active fermenterstep
@@ -149,7 +149,6 @@ As soon as you are fermenting, The display shows different fermenters every x se
 
 
 ## Hints
-
 - This is running in python3
 - Changing an LCD_xxxx parameter in the parameters menu or any
 file in LCDisplay folder usually requires a reboot.
